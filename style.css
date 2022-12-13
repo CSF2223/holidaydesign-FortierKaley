@@ -1,0 +1,58 @@
+/*
+Color Palette
+background color: #200439
+primary: #512C73
+secondary: #361356
+tertiary: #6F4D8F
+accent: #9277AC
+white: #fff
+black: #000  
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;600;700&family=Open+Sans:wght@300;400;600;700&family=Source+Serif+Pro:wght@300;400&display=swap');
+
+
+
+html {
+    /* If we add any padding or border onto an element it does not affect the width of the element */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    background-color: #8EC3B0;
+    color: #fff;
+}
+
+.DHC {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.dhcText {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Hog {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.Toji {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
