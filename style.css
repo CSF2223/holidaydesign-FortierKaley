@@ -28,31 +28,86 @@ body {
     color: #fff;
 }
 
-.DHC {
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
+}
+
+.DHC{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .dhcText {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
 }
 
-.Hog {
+
+
+.hogText {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
 }
 
-.Toji {
+.tojiText {
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: flex-start;
     align-items: center;
 }
 
+footer {
+    text-align: left;
+    color: #fff;
+    margin: 10rem 0;
+    border-top: 1px solid #fccdd9;
+}
+
+
+
+
+
+@media (min-width: 800px) {
+    .mouche {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+    }
+    
+    .dhcText {
+        font-size: 1rem;
+    }
+    
+    .hogText {
+        font-size: 1rem;
+    }
+    
+    .tojiText {
+        font-size: 1rem;
+    }
+    
+    .itto {
+        font-size: 3.5rem;
+    }
+    
+    .projectGallery {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .mouche {
+        max-width: 90%;
+    }
+}
