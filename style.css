@@ -1,6 +1,6 @@
 /*
 Color Palette
-background color: #200439
+background color: #8EC3B0
 primary: #512C73
 secondary: #361356
 tertiary: #6F4D8F
@@ -35,6 +35,8 @@ body {
     align-items: center;
 }
 
+
+
 .DHC{
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -44,7 +46,7 @@ body {
 
 .dhcText {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
 }
 
@@ -52,7 +54,7 @@ body {
 
 .hogText {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-end;
     align-items: flex-end;
     
@@ -60,12 +62,12 @@ body {
 
 .tojiText {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
 
-footer {
+.copyright {
     text-align: left;
     color: #fff;
     margin: 10rem 0;
@@ -78,9 +80,10 @@ footer {
 
 @media (min-width: 800px) {
     .mouche {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
+        flex-wrap: wrap;
         height: 90vh;
     }
     
@@ -100,14 +103,13 @@ footer {
         font-size: 3.5rem;
     }
     
-    .projectGallery {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
+    .copyright {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
     }
     
     .mouche {
-        max-width: 90%;
+        max-width: 85%;
     }
 }
