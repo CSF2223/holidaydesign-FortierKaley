@@ -44,6 +44,22 @@ body {
     border-bottom-right-radius: 15px;
 }
 
+/* The animation code */
+@keyframes example {
+  from {background-color: white;}
+  to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+
 .dhcText {
     display: flex;
     flex-direction: column;
@@ -78,6 +94,7 @@ body {
 
 
 
+
 @media (min-width: 800px) {
     .mouche {
         flex-direction: column;
@@ -104,6 +121,7 @@ body {
     }
     
     .copyright {
+        display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
@@ -112,4 +130,5 @@ body {
     .mouche {
         max-width: 85%;
     }
+    
 }
